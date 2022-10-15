@@ -1,0 +1,102 @@
+@font-face{
+	src: url(../fonts/PT_Sans/PTSans-Bold.ttf);
+	font-family: PTSans-Bold;
+}
+
+@font-face{
+	src: url(../fonts/PT_Sans/PTSans-Regular.ttf);
+	font-family: PTSans-Regular;
+}
+
+/*common start*/
+body{
+    font-family: PTSans-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #010101;
+}
+/*common end*/
+
+/*header start*/
+header{
+	padding: 33px 0;
+	background-color: #fcdb00;
+}
+.c_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+   font-size: 22px;
+   font-weight: 700;
+   color: #000000 !important;
+   padding: 0 50px !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover {
+	color: white !important;
+}
+
+/*header end*/
+
+
+/*slider start*/
+.slider{
+	background-color: #fcdb00;
+	padding-bottom: 100px;
+}
+
+.c_row{
+	 padding-top: 20px;
+}
+
+.indi_c {
+    bottom: -75px;
+}
+
+.indi_c [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.s_text{
+	padding-top: 86px;
+}
+.s_text h1{
+	font-family: PTSans-Bold;
+	font-size: 32px;
+	font-weight: 700;
+	color: black;
+}
+.s_text h2{
+	font-family: PTSans-Regular;
+	font-size: 20px;
+	font-weight: 400;
+	color: #313841;
+}
+.s_text p{
+	color: #555555;
+}
+.s_icon{}
+.s_icon ul{}
+.s_icon ul li{
+	margin-left: 4px;
+}
+.s_icon ul li i{
+	font-size: 42px;
+	color: black;
+}
+.s_icon ul li i:hover {
+	transform: scale(.9);
+	transition: .3s;
+	color: white;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.s_img{}
+.s_img img{}
+
+
+
+/*slider end*/

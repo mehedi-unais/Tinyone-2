@@ -1,0 +1,33 @@
+
+
+font-family
+  pt sans 400,700
+
+
+  color
+  #313841 ash
+  #010101 black
+  #fcdb00 yellow
+
+
+  xxl  1440
+  xl   1200
+  lg   1024
+
+
+
+  header-------------
+
+                 xxl,xl,lg              md             sm             col
+
+  menu             22px                22px           20px            20px
+
+
+
+
+
+
+  padding------------
+
+  
+
